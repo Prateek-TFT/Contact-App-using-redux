@@ -1,0 +1,5 @@
+export const ADD_CONTACT = "ADD_CONTACT";
+export const REMOVE_CONTACT = "REMOVE_CONTACT";
+export const EDIT_CONTACT = "EDIT_CONTACT";
+export const FETCH_CONTACT = "FETCH_CONTACT";
+export const TOGGLE_SPINNER = "TOGGLE_SPINNER";

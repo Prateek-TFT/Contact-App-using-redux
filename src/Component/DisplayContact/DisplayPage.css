@@ -1,0 +1,59 @@
+.display-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  flex-direction: column;
+}
+.showDetails {
+  margin: 5%;
+  height: 100%;
+  width: 60%;
+  background-color: white;
+  box-shadow: 2px 2px 5px lightslategray;
+  padding: 5px;
+}
+.showDetails header {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.showDetails header p {
+  font-size: larger;
+}
+#Id {
+  margin-left: 6%;
+}
+#Name {
+  margin-left: 10%;
+}
+#Email {
+  margin-left: 15%;
+}
+#Phone {
+  margin-left: 20%;
+}
+.content-div {
+  margin: 5px;
+  height: 83%;
+  max-height: 90%;
+  padding: 2%;
+}
+#spinnerDiv {
+  display: flex;
+  margin: 5px;
+  height: 83%;
+  max-height: 90%;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-Contact-btn {
+  height: 5vh;
+  width: 10vw;
+  margin-top: 1vh;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+}
