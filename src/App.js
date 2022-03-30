@@ -8,7 +8,6 @@ import { Header } from "./Component/UI/Header";
 function App() {
   return (
     <div className="App">
-      <h1>sdasd</h1>
       <Header />
       <Routes>
         <Route path="/Add-contact" element={<AddContact />} />
